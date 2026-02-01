@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * binarty_tree_balance - calculates balance of tree
+ * binary_tree_balance - calculates balance of tree
  * @tree: pointer to the exact node
  * Return: returns balance difference between max height of left and right
  */
