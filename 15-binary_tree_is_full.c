@@ -27,7 +27,7 @@ int binary_tree_is_full(const binary_tree_t *tree)
 {
 	if (!tree)
 		return (0);
-	if (binary_tree_size(tree) == _pow(2, binary_tree_height(tree) - 1))
+	if ((int)binary_tree_size(tree) == _pow(2, binary_tree_height(tree) - 1))
 		return (1);
 }
 
